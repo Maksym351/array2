@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class array {
+    public static void main(String[] args) {
+        List<String> arrayList = new ArrayList<>(); //Створення об'єкту ArrayList
+
+        arrayList.add("Element 1"); //Додавання першого елементу в список
+        arrayList.add("Element 2"); //Додавання другого елементу в список
+        arrayList.add("Element 3"); //Додавання третього елементу в список
+
+        System.out.println("Array List: " + arrayList);// Виведення всіх елементів списку в консоль
+
+        String element = arrayList.get(0); //Створення змінної в якій буде зберігатись конкретний елемент з ArrayList, отримуємо за допомогою вбудованого методу get(), вказавши в дужках індекс елементу
+        System.out.println(element); //Виведення результату в консоль
+
+        arrayList.remove("Element 3"); //Видалення елементу з Arraylist
+        System.out.println(arrayList); //Виведення результату
+
+        int size = arrayList.size();//Визначення розміру ArrayList
+        System.out.println(size);//Виведення результату
+
+        arrayList.set(1, "Element 9");// Встановлення нового елементу замість елементу з індексом 1
+        System.out.println(arrayList);// Виведення результату
+
+        boolean search = arrayList.contains("Element 5");//Перевірка на наявність першого елементу в ArrayList
+        System.out.println(search); //Виведення результату
+
+        int index = arrayList.indexOf("Element 9");// Визначення індуксу елементу
+        System.out.println(index);// Виведення результату в консоль
+
+        arrayList.clear();// Очищення ArrayList
+        System.out.println(arrayList);// Виведення результату в консоль
+
+        List<String> linklist = new LinkedList<>(); //Створення об'єкту зв'язаного списку
+
+        list
+
+    }
+}
